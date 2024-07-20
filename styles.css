@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:blue;
+    color: white;  
+}
+hr{
+    color: rgb(127, 127, 83);
+}
+.container{
+    max-width: 80vw;
+    font-family: "Ubuntu", sans-serif; 
+    
+}
+.navbar{
+    display: flex;
+    height: 70px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 32px;
+    
+}
+.top-left{
+    width: 50%;
+    height: 50vh;
+}
+.top-right{
+    width: 50%;
+    height: 50vh;
+}
+.section1 h1{
+    text-align:justify;
+}
+.section1 p{
+    padding: 5px;
+    margin: 10px 0;
+    text-align: justify;
+    
+}
+.section2{
+    padding:73px;
+}
+.section2 h1{
+    font-size: 2.3rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.gymimg{
+    height: 30vh;
+    width: 30vw;
+    margin: 100px 70px;
+    /* background-color: aqua; */
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 33px;
+    min-width: 20vw;
+    border: 2px solid greenyellow;;
+    text-align: center;
+    border-radius: 10px;
+    background-color: orchid;
+    color:white;
+    
+    
+}
+.box h2{
+    padding: 12px 0;
+    font-size: 1.8rem;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 17px 2px ;
+    
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box h2{
+    font-weight: 2rem;
+}
+.btn2{
+    padding: 10px 12px;
+    margin: 15px;
+    border: 2px solid  white;
+    cursor: pointer;
+    border-radius: 6px;
+    color: red;
+    background-color:greenyellow
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid rgb(148, 136, 136);
+    padding: 15px 0;
+}
+.section3 table td{
+    border-bottom: 2px solid rgb(148, 136, 136);;
+}
+.section3 h1{
+    font-size:2.3rem ;
+}
+.section3{
+    padding:73px;
+    
+    
+}
+table th{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+footer{
+    padding:23px;
+    text-align: center;
+
+}
